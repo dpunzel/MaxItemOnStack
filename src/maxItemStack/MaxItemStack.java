@@ -30,4 +30,13 @@ public class MaxItemStack {
             maxStack.push(maxStack.peek());
         }
     }
+
+    public int pop() {
+        maxStack.pop();
+        return mainStack.pop();
+    }
+
+    public int getMaxItem() {
+        return maxStack.peek();
+    }
 }
