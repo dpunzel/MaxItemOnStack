@@ -14,5 +14,6 @@ public class App {
         maxItemStack.push(6);
 
         System.out.println(maxItemStack.getMaxItem());
+
     }
 }
